@@ -2,3 +2,4 @@ ERROR:pipeline.rules:orcid api failure for 0000-0002-2238-3248
 ERROR:pipeline.rules:orcid api failure for 0000-0002-2238-3249
 ERROR:pipeline.rules:orcid api failure for 0000-0002-2238-3250
 ERROR:pipeline.rules:orcid api failure for 0000-0002-2238-3251
+ERROR:py_data_rules.rule_engine:rule evaluation failed for tax_id_versus_scientific_name with exception AssertionError: 
