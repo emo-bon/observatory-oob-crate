@@ -1,0 +1,3116 @@
+@prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
+@prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mr: <http://marineregions.org/ns/ontology#> .
+@prefix ns1: <https://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///github/workspace/ro-crate-metadata.json> a schema1:CreativeWork ;
+    dct:conformsTo <https://w3id.org/ro/crate/1.1> ;
+    schema1:about <file:///github/workspace/> .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_1#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_1> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_1#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_1> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_1#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_1> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_1#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_1> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_10#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_10> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_10#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_10> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.569e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_10#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_10> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.181e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_10#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_10> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.168e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_11#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_11> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_11#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_11> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.569e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_11#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_11> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.181e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_11#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_11> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.168e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_12#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_12> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_12#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_12> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.569e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_12#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_12> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.181e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_12#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_12> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.168e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_13#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_13> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_13#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_13> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_13#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_13> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_13#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_13> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_14#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_14> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_14#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_14> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_14#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_14> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_14#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_14> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_15#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_15> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_15#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_15> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_15#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_15> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_15#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_15> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_16#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_16> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_16#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_16> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_16#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_16> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_16#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_16> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_17#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_17> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_17#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_17> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_17#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_17> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_17#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_17> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_18#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_18> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_18#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_18> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_18#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_18> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_18#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_18> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_19#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_19> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_19#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_19> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_19#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_19> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_19#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_19> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_2#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_2> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_2#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_2> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_2#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_2> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_2#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_2> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_20#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_20> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_20#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_20> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_20#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_20> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_20#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_20> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_21#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_21> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_21#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_21> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_21#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_21> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_21#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_21> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_22#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_22> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_22#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_22> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_22#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_22> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_22#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_22> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_23#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_23> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_23#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_23> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_23#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_23> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_23#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_23> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_24#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_24> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.988e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_24#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_24> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.815e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_24#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_24> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.939e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_24#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_24> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.94e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_25#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_25> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_25#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_25> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.766e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_25#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_25> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.456e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_25#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_25> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.439e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_26#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_26> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_26#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_26> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.766e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_26#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_26> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.456e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_26#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_26> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.439e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_27#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_27> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_27#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_27> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.766e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_27#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_27> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.456e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_27#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_27> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.439e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_28#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_28> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8.3e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_28#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_28> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.766e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_28#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_28> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.456e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_28#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_28> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.439e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_3#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_3> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_3#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_3> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_3#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_3> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_3#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_3> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_4#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_4> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_4#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_4> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_4#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_4> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_4#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_4> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_5#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_5> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_5#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_5> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_5#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_5> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_5#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_5> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_6#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_6> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_6#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_6> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_6#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_6> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_6#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_6> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_7#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_7> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_7#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_7> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_7#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_7> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_7#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_7> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_8#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_8> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 7.962e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_8#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_8> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.785e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_8#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_8> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.875e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_8#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_8> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 1.866e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_9#ph> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_9> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ],
+        [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 8e+00 ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ],
+        [ a sosa:ObservableProperty ;
+            rdfs:label "ph"^^xsd:string ;
+            dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ] ;
+    schema:measurementTechnique "Consort multimeter C3016"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_9#sea_surf_salinity> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_9> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 3.569e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_salinity"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_9#sea_surf_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_9> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.181e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sea_surf_temp"^^xsd:string ;
+            dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ] ;
+    schema:measurementTechnique "Seabird SBE 911plus CTD"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observation/EMOBON_OOB_So_9#sediment_temp> a csvw:Cell,
+        sosa:Observation,
+        schema:Observation ;
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_9> ;
+    sosa:hasResult [ a qudt:QuantityValue,
+                sosa:Result ;
+            qudt:numericValue 2.168e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ;
+    sosa:observedProperty [ a sosa:ObservableProperty ;
+            rdfs:label "sediment_temp"^^xsd:string ;
+            dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
+    schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211015> a prov:Activity,
+        sosa:Sampling ;
+    dct:type "sampling"^^xsd:string ;
+    prov:startedAtTime "2021-10-15"^^xsd:date ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ] ;
+    sosa:madeBySampler "van veen"^^xsd:string ;
+    sosa:resultTime "2021-10-15"^^xsd:date ;
+    sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label ""^^xsd:string ;
+            rdfs:comment ""^^xsd:string ;
+            rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ] ;
+    emobon-core:originCountry "France"^^xsd:string ;
+    emobon-core:waterColumnDepth "27"^^xsd:string ;
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> ;
+    emobon-sampling:maxSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:minSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    emobon-sampling:tidalStage "no_tide"^^xsd:string .
+
+<file:///github/workspace/> a schema1:Dataset ;
+    dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
+    schema1:contactPoint <https://ror.org/0038zss60> ;
+    schema1:datePublished "2025-04-01T08:44:10+00:00" ;
+    schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory OOB" ;
+    schema1:hasPart <file:///github/workspace/README.md>,
+        <file:///github/workspace/data-quality-control/>,
+        <file:///github/workspace/data-quality-control/dqc.csv>,
+        <file:///github/workspace/data-quality-control/logfile>,
+        <file:///github/workspace/data-quality-control/report.csv>,
+        <file:///github/workspace/logsheets/>,
+        <file:///github/workspace/logsheets/filtered/>,
+        <file:///github/workspace/logsheets/filtered/sediment_measured.csv>,
+        <file:///github/workspace/logsheets/filtered/sediment_observatory.csv>,
+        <file:///github/workspace/logsheets/filtered/sediment_sampling.csv>,
+        <file:///github/workspace/logsheets/filtered/water_measured.csv>,
+        <file:///github/workspace/logsheets/filtered/water_observatory.csv>,
+        <file:///github/workspace/logsheets/filtered/water_sampling.csv>,
+        <file:///github/workspace/logsheets/sediment_measured.csv>,
+        <file:///github/workspace/logsheets/sediment_observatory.csv>,
+        <file:///github/workspace/logsheets/sediment_sampling.csv>,
+        <file:///github/workspace/logsheets/transformed/>,
+        <file:///github/workspace/logsheets/transformed/sediment_measured.csv>,
+        <file:///github/workspace/logsheets/transformed/sediment_observatory.csv>,
+        <file:///github/workspace/logsheets/transformed/sediment_sampling.csv>,
+        <file:///github/workspace/logsheets/transformed/water_measured.csv>,
+        <file:///github/workspace/logsheets/transformed/water_observatory.csv>,
+        <file:///github/workspace/logsheets/transformed/water_sampling.csv>,
+        <file:///github/workspace/logsheets/water_measured.csv>,
+        <file:///github/workspace/logsheets/water_observatory.csv>,
+        <file:///github/workspace/logsheets/water_sampling.csv> ;
+    schema1:keywords "EMO BON",
+        "https://rs.tdwg.org/terms/Event",
+        "https://schema.org/Dataset",
+        "https://www.w3.org/TR/vocab-ssn/#SOSASampling" ;
+    schema1:license "https://creativecommons.org/licenses/by/4.0/" ;
+    schema1:publisher "https://www.embrc.eu/emo-bon" ;
+    schema1:title "observatory-oob-crate" ;
+    ns1:accessURL "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/ro-crate-metadata.json" .
+
+<file:///github/workspace/README.md> a schema1:MediaObject ;
+    schema1:encodingFormat "text/markdown" .
+
+<file:///github/workspace/data-quality-control/> a schema1:Dataset .
+
+<file:///github/workspace/data-quality-control/dqc.csv> a schema1:MediaObject ;
+    schema1:encodingFormat "text/csv" .
+
+<file:///github/workspace/data-quality-control/logfile> a schema1:MediaObject ;
+    schema1:encodingFormat "text/plain" .
+
+<file:///github/workspace/data-quality-control/report.csv> a schema1:MediaObject ;
+    schema1:encodingFormat "text/csv" .
+
+<file:///github/workspace/logsheets/> a schema1:Dataset .
+
+<file:///github/workspace/logsheets/filtered/> a schema1:Dataset .
+
+<file:///github/workspace/logsheets/filtered/sediment_measured.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the environmental measurements from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/filtered/sediment_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_03000033" .
+
+<file:///github/workspace/logsheets/filtered/sediment_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the observatory metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/filtered/sediment_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/filtered/sediment_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the sample and event metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/filtered/sediment_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/filtered/water_measured.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the environmental measurements from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/filtered/water_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_06105011" .
+
+<file:///github/workspace/logsheets/filtered/water_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the observatory metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/filtered/water_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/filtered/water_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Filtered logsheet of the sample and event metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/filtered/water_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/sediment_measured.csv> a schema1:MediaObject ;
+    schema1:description "Raw logsheet of the environmental measurements from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/sediment_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_03000033" .
+
+<file:///github/workspace/logsheets/sediment_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Raw logsheet of the observatory metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/sediment_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/sediment_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Raw logsheet of the sample and event metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/sediment_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/transformed/> a schema1:Dataset .
+
+<file:///github/workspace/logsheets/transformed/sediment_measured.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the environmental measurements from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/transformed/sediment_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_03000033" .
+
+<file:///github/workspace/logsheets/transformed/sediment_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the observatory metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/transformed/sediment_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/transformed/sediment_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the sample and event metadata from the sediment sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/transformed/sediment_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_03000033",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/transformed/water_measured.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the environmental measurements from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/transformed/water_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_06105011" .
+
+<file:///github/workspace/logsheets/transformed/water_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the observatory metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/transformed/water_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/transformed/water_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Transformed logsheet of the sample and event metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/transformed/water_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://rs.tdwg.org/terms/Event" .
+
+<file:///github/workspace/logsheets/water_measured.csv> a schema1:MediaObject ;
+    schema1:description "Raw logsheet of the environmental measurements from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/water_measured.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+        "http://purl.obolibrary.org/obo/ENVO_06105011" .
+
+<file:///github/workspace/logsheets/water_observatory.csv> a schema1:MediaObject ;
+    schema1:description "Raw logsheet of the observatory metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/water_observatory.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://purl.org/dc/terms/Location",
+        "https://schema.org/ContactPoint" .
+
+<file:///github/workspace/logsheets/water_sampling.csv> a schema1:MediaObject ;
+    schema1:description "Raw logsheet of the sample and event metadata from the water sampling events" ;
+    schema1:downloadUrl "https://raw.githubusercontent.com/emo-bon/observatory-oob-crate/main/logsheets/water_sampling.csv" ;
+    schema1:encodingFormat "text/csv" ;
+    schema1:keywords "http://purl.obolibrary.org/obo/ENVO_06105011",
+        "https://rs.tdwg.org/terms/Event" .
+
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/3452> mr:contains <http://marineregions.org/mrgid/http://marineregions.org/mrgid/5207> ;
+    mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/4279> .
+
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/4279> mr:contains <http://marineregions.org/mrgid/> .
+
+<http://marineregions.org/mrgid/http://marineregions.org/mrgid/5207> mr:isPartOf <http://marineregions.org/mrgid/http://marineregions.org/mrgid/3452> .
+
+<https://data.emobon.embrc.eu/observatory-profile/latest> a schema1:CreativeWork ;
+    schema1:name "<name>" .
+
+<https://ror.org/0038zss60> a schema1:ContactPoint ;
+    schema1:email "emobon@embrc.eu" .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210818> a prov:Activity,
+        sosa:Sampling ;
+    dct:type "sampling"^^xsd:string ;
+    prov:startedAtTime "2021-08-18"^^xsd:date ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ] ;
+    sosa:madeBySampler "PVC sediment corer"^^xsd:string ;
+    sosa:resultTime "2021-08-18"^^xsd:date ;
+    sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "SoSOP 2"^^xsd:string ;
+            rdfs:comment "PVC cores of 7.5 cm in diameter"^^xsd:string ;
+            rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ] ;
+    emobon-core:originCountry "France"^^xsd:string ;
+    emobon-core:waterColumnDepth "27"^^xsd:string ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> ;
+    emobon-sampling:maxSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:minSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    emobon-sampling:tidalStage "no_tide"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211209> a prov:Activity,
+        sosa:Sampling ;
+    dct:type "sampling"^^xsd:string ;
+    prov:startedAtTime "2021-12-09"^^xsd:date ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ] ;
+    sosa:madeBySampler "PVC sediment corer"^^xsd:string ;
+    sosa:resultTime "2021-12-09"^^xsd:date ;
+    sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "SoSOP 2"^^xsd:string ;
+            rdfs:comment "PVC cores of 7.5 cm in diameter"^^xsd:string ;
+            rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ] ;
+    emobon-core:originCountry "France"^^xsd:string ;
+    emobon-core:waterColumnDepth "27"^^xsd:string ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> ;
+    emobon-sampling:maxSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:minSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    emobon-sampling:tidalStage "no_tide"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> a emobon-core:Observatory ;
+    dct:isPartOf [ a schema:Project ;
+            emobon-core:enaProjAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51688"^^xsd:anyURI ;
+            schema:description "The EMO BON project"^^xsd:string ;
+            schema:name "EMOBON"^^xsd:string ] ;
+    emobon-core:broadBiome "marine%20benthic%20biome%5BENVO_01000024%5D"^^xsd:anyURI,
+        "marine%20biome%20%5BENVO:00000447%5D"^^xsd:anyURI ;
+    emobon-core:enaStudyAccNum "https://www.ebi.ac.uk/ena/browser/view/PRJEB51665"^^xsd:anyURI ;
+    emobon-core:geoLocation [ a sf:Point ;
+            geo:asWKT "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point (42.484167 3.135278)" ] ;
+    emobon-core:hasMixsPackage "sediment"^^xsd:string ;
+    emobon-core:localBiome "shallow_marine_sediment_%5BENVO:03000034%5D"^^xsd:anyURI ;
+    emobon-core:marineRegion "http://marineregions.org/mrgid/3452"^^xsd:anyURI,
+        "http://marineregions.org/mrgid/4279"^^xsd:anyURI,
+        "http://marineregions.org/mrgid/5207"^^xsd:anyURI ;
+    emobon-core:marineRegionName "Bay of Banyuls-sur-Mer"^^xsd:string,
+        "Gulf of Lion"^^xsd:string,
+        "Mediterranean Sea - Western Basin"^^xsd:string ;
+    emobon-core:observatoryId "OOB"^^xsd:string ;
+    emobon-core:observatorySampleId "OOB So"^^xsd:string ;
+    emobon-core:originCountry "France"^^xsd:string ;
+    emobon-core:sampleType core_vocab:soil ;
+    emobon-core:siteInfo "Part of the SOMLIT national network of observation, sampled for planktonic DNA for more than 10 years, participate to the Ocean Sampling Day since it started, blooms in late winter, situated close to a marine protected area."^^xsd:string ;
+    emobon-core:waterColumnDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    schema:contactPoint [ a emobon-core:Organization ;
+            emobon-core:edmoId "https://edmo.seadatanet.org/report/1015"^^xsd:anyURI ;
+            schema:address [ a schema:PostalAddress ;
+                    schema:addressCountry "France"^^xsd:string ;
+                    schema:member [ a schema:Person ;
+                            schema:email "pierre.galand@obs-banyuls.fr"^^xsd:string ;
+                            schema:name "Pierre GALAND"^^xsd:string ] ] ;
+            schema:legalName "Observatoire Océanologique de Banyuls"^^xsd:string ] .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_10> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-08-18 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-11-24"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2021-11-24"^^xsd:date ;
+                    prov:startedAtTime "2021-11-24"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2021-10-22"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2021-10-22"^^xsd:date ;
+                                    prov:startedAtTime "2021-10-21"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-08-18"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_10> ;
+                                            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -8e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -7e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210818> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:failureComment "non-quantifiable DNA after extraction"^^xsd:string ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210818 micro (2)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_11> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-08-18 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-08-18"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_11> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210818> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210818 micro (3)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_12> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-08-18 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-08-18"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_12> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210818> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210818 micro (4)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_13> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-10-12 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-02-23"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-02-23"^^xsd:date ;
+                    prov:startedAtTime "2022-02-22"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-10-12"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_13> ;
+                                            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -8e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -7e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:failureComment "non-quantifiable DNA after extraction"^^xsd:string ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 micro (1)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_14> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-10-12 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-02-23"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-02-23"^^xsd:date ;
+                    prov:startedAtTime "2022-02-22"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-10-12"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_14> ;
+                                            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -8e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -7e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:failureComment "non-quantifiable DNA after extraction"^^xsd:string ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 micro (2)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_15> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-10-12 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-10-12"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_15> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 micro (3)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_16> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-10-12 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-10-12"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_16> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 micro (4)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_17> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-10-12 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-07-18"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-07-18"^^xsd:date ;
+                    prov:startedAtTime "2022-07-18"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-10-12"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_17> ;
+                                            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -2e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -2e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 meio (1)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_18> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-10-12 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-07-18"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-07-18"^^xsd:date ;
+                    prov:startedAtTime "2022-07-18"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-10-12"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_18> ;
+                                            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -2e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -2e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 meio (2)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_19> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-10-12 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-10-12"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_19> ;
+            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -2e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 meio (3)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_20> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-10-12 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-10-12"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_20> ;
+            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -2e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211012 meio (4)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_25> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-12-09 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-02-23"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-02-23"^^xsd:date ;
+                    prov:startedAtTime "2022-02-22"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-12-09"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_25> ;
+                                            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -8e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -7e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211209> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure false ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211209 micro (1)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_26> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-12-09 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-02-23"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-02-23"^^xsd:date ;
+                    prov:startedAtTime "2022-02-22"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-12-09"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_26> ;
+                                            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -8e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -7e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211209> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure false ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211209 micro (2)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_27> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-12-09 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-12-09"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_27> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211209> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211209 micro (3)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_28> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-12-09 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-12-09"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_28> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211209> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 211209 micro (4)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_3> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-06-08 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-06-08"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_3> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210608> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210608 micro (3)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_4> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-06-08 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-06-08"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_4> ;
+            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -8e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210608> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210608 micro (4)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_5> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-06-08 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-07-18"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-07-18"^^xsd:date ;
+                    prov:startedAtTime "2022-07-18"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-06-08"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_5> ;
+                                            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -2e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -2e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210608> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210608 meio (1)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_6> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-06-08 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2022-07-18"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2022-07-18"^^xsd:date ;
+                    prov:startedAtTime "2022-07-18"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2022-01-25"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2022-01-25"^^xsd:date ;
+                                    prov:startedAtTime "2022-01-24"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-06-08"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_6> ;
+                                            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -2e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -2e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210608> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210608 meio (2)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "2"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_7> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-06-08 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-06-08"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_7> ;
+            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -2e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210608> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210608 meio (3)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_8> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-06-08 community collected meio"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Jadwiga Orignac"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Local storage of the collected sample"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-06-08"^^xsd:date ;
+            prov:wasAssociatedWith [ a prov:Person,
+                        schema:Person ;
+                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                    schema:name "Jadwiga Orignac"^^xsd:string ] ;
+            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_8> ;
+            emobon-sampling:storageLoc "room 301, freezer LECOB"^^xsd:string ;
+            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                    qudt:numericValue -2e+01 ;
+                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210608> ;
+    emobon-sampling:bioCommunity "meio"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210608 meio (4)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_9> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON metagenome sediment sample from station OOB collected on 2021-08-18 community collected micro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Pierre E. Galand"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ;
+            dct:type "storage"^^xsd:string ;
+            prov:startedAtTime "2021-11-24"^^xsd:date ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ;
+                    dct:type "transport"^^xsd:string ;
+                    prov:endedAtTime "2021-11-24"^^xsd:date ;
+                    prov:startedAtTime "2021-11-24"^^xsd:date ;
+                    prov:wasInformedBy [ a prov:Activity ;
+                            dct:description "Storage of sample at HMBRC HQ"^^xsd:string ;
+                            dct:type "storage"^^xsd:string ;
+                            prov:startedAtTime "2021-10-22"^^xsd:date ;
+                            prov:wasInformedBy [ a prov:Activity ;
+                                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ;
+                                    dct:type "transport"^^xsd:string ;
+                                    prov:endedAtTime "2021-10-22"^^xsd:date ;
+                                    prov:startedAtTime "2021-10-21"^^xsd:date ;
+                                    prov:wasInformedBy [ a prov:Activity ;
+                                            dct:description "Local storage of the collected sample"^^xsd:string ;
+                                            dct:type "storage"^^xsd:string ;
+                                            prov:startedAtTime "2021-08-18"^^xsd:date ;
+                                            prov:wasAssociatedWith [ a prov:Person,
+                                                        schema:Person ;
+                                                    schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+                                                    schema:name "Pierre E. Galand"^^xsd:string ] ;
+                                            prov:wasInformedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_9> ;
+                                            emobon-sampling:storageLoc "room 213, freezer LECOB"^^xsd:string ;
+                                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                                    qudt:numericValue -8e+01 ;
+                                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ;
+                            emobon-sampling:storageTemp [ a qudt:QuantityValue ;
+                                    qudt:numericValue -7e+01 ;
+                                    qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ] ] ] ] ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210818> ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:failureComment "non-quantifiable DNA after extraction"^^xsd:string ;
+    emobon-sampling:hasSampleSize [ a qudt:QuantityValue ;
+            qudt:numericValue 1e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ] ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:longStorage false ;
+    emobon-sampling:origEmobonId "EMO BON OOB So 210818 micro (1)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "1"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210608> a prov:Activity,
+        sosa:Sampling ;
+    dct:type "sampling"^^xsd:string ;
+    prov:startedAtTime "2021-06-08"^^xsd:date ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ] ;
+    sosa:madeBySampler "PVC sediment corer"^^xsd:string ;
+    sosa:resultTime "2021-06-08"^^xsd:date ;
+    sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "SoSOP 2"^^xsd:string ;
+            rdfs:comment "PVC cores of 7.5 cm in diameter"^^xsd:string ;
+            rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ] ;
+    emobon-core:originCountry "France"^^xsd:string ;
+    emobon-core:waterColumnDepth "27"^^xsd:string ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> ;
+    emobon-sampling:maxSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:minSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    emobon-sampling:tidalStage "no_tide"^^xsd:string .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211012> a prov:Activity,
+        sosa:Sampling ;
+    dct:type "sampling"^^xsd:string ;
+    prov:startedAtTime "2021-10-12"^^xsd:date ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ] ;
+    sosa:madeBySampler "PVC sediment corer"^^xsd:string ;
+    sosa:resultTime "2021-10-12"^^xsd:date ;
+    sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label "SoSOP 2"^^xsd:string ;
+            rdfs:comment "PVC cores of 7.5 cm in diameter"^^xsd:string ;
+            rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ] ;
+    emobon-core:originCountry "France"^^xsd:string ;
+    emobon-core:waterColumnDepth "27"^^xsd:string ;
+    emobon-sampling:bioCommunity "micro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:investigationType "metagenome"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> ;
+    emobon-sampling:maxSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:minSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "marine sediment metagenome"^^xsd:string ;
+    emobon-sampling:tidalStage "no_tide"^^xsd:string .
+
