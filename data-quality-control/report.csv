@@ -27,6 +27,8 @@ source_mat_id error,sediment,sampling,source_mat_id,25,EMOBON_OOB_So_25,source_m
 source_mat_id error,sediment,sampling,source_mat_id,26,EMOBON_OOB_So_26,source_mat_id should match ^EMOBON_OOB_So_211209_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,27,EMOBON_OOB_So_27,source_mat_id should match ^EMOBON_OOB_So_211209_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,28,EMOBON_OOB_So_28,source_mat_id should match ^EMOBON_OOB_So_211209_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,174,EMOBON_OOB_So_174,source_mat_id should match ^EMOBON_OOB_So___$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,175,EMOBON_OOB_So_175,source_mat_id should match ^EMOBON_OOB_So___$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 orcid error,sediment,sampling,store_person,5,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 orcid error,sediment,sampling,store_person,6,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 orcid error,sediment,sampling,store_person,7,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
@@ -43,8 +45,6 @@ membership violation,sediment,sampling,comm_samp,174,<empty>,"comm_samp must be 
 membership violation,sediment,sampling,comm_samp,175,<empty>,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,ENA_accession_number_sample,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
 missing value,sediment,sampling,ENA_accession_number_sample,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
-missing value,sediment,sampling,arr_date_hq,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
-missing value,sediment,sampling,arr_date_hq,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,arr_date_seq,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,arr_date_seq,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,collection_date,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
@@ -91,8 +91,6 @@ missing value,sediment,sampling,sampl_person,174,<empty>,\,/github/workspace/log
 missing value,sediment,sampling,sampl_person,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,sampling_event,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,sampling_event,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-datatype mismatch,sediment,sampling,ship_date,174,to ship,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
-datatype mismatch,sediment,sampling,ship_date,175,to ship,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,ship_date_seq,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,ship_date_seq,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,size_frac_low,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
@@ -101,8 +99,6 @@ missing value,sediment,sampling,size_frac_up,174,<empty>,\,/github/workspace/log
 missing value,sediment,sampling,size_frac_up,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
 missing value,sediment,sampling,store_person,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,store_person,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-missing value,sediment,sampling,store_temp_hq,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
-missing value,sediment,sampling,store_temp_hq,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
 missing value,sediment,sampling,tax_id,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
 missing value,sediment,sampling,tax_id,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
 missing value,sediment,sampling,failure,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,mandatory
@@ -111,8 +107,6 @@ missing value,sediment,sampling,scientific_name,174,<empty>,\,/github/workspace/
 missing value,sediment,sampling,scientific_name,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,comm_samp,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,comm_samp,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-missing value,sediment,sampling,source_mat_id,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-missing value,sediment,sampling,source_mat_id,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_date,21,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,samp_store_date,22,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,samp_store_date,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
