@@ -1615,39 +1615,10 @@
             dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ] ;
     schema:measurementTechnique "Consort temperature compensator (ST10) PT1000"^^xsd:string .
 
-<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211015> a prov:Activity,
-        sosa:Sampling ;
-    dct:type "sampling"^^xsd:string ;
-    prov:startedAtTime "2021-10-15"^^xsd:date ;
-    prov:wasAssociatedWith [ a prov:Person,
-                schema:Person ;
-            schema:name "Bruno Hesse"^^xsd:string ] ;
-    sosa:madeBySampler "van veen"^^xsd:string ;
-    sosa:resultTime "2021-10-15"^^xsd:date ;
-    sosa:usedProcedure [ a sosa:Procedure ;
-            rdfs:label ""^^xsd:string ;
-            rdfs:comment ""^^xsd:string ;
-            rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ] ;
-    emobon-core:originCountry "France"^^xsd:string ;
-    emobon-core:waterColumnDepth "27"^^xsd:string ;
-    emobon-sampling:bioCommunity "macro"^^xsd:string ;
-    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
-    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
-    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> ;
-    emobon-sampling:maxSamplingDepth [ a qudt:QuantityValue ;
-            qudt:numericValue 2.7e+01 ;
-            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
-    emobon-sampling:minSamplingDepth [ a qudt:QuantityValue ;
-            qudt:numericValue 2.7e+01 ;
-            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
-    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
-    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
-    emobon-sampling:tidalStage "no_tide"^^xsd:string .
-
 <file:///github/workspace/> a schema1:Dataset ;
     dct:conformsTo <https://data.emobon.embrc.eu/observatory-profile/latest> ;
     schema1:contactPoint <https://ror.org/0038zss60> ;
-    schema1:datePublished "2025-04-01T08:44:10+00:00" ;
+    schema1:datePublished "2025-04-10T13:40:22+00:00" ;
     schema1:description "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory OOB" ;
     schema1:hasPart <file:///github/workspace/README.md>,
         <file:///github/workspace/data-quality-control/>,
@@ -1848,6 +1819,35 @@
 
 <https://ror.org/0038zss60> a schema1:ContactPoint ;
     schema1:email "emobon@embrc.eu" .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211015> a prov:Activity,
+        sosa:Sampling ;
+    dct:type "sampling"^^xsd:string ;
+    prov:startedAtTime "2021-10-15"^^xsd:date ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ] ;
+    sosa:madeBySampler "van veen"^^xsd:string ;
+    sosa:resultTime "2021-10-15"^^xsd:date ;
+    sosa:usedProcedure [ a sosa:Procedure ;
+            rdfs:label ""^^xsd:string ;
+            rdfs:comment ""^^xsd:string ;
+            rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ] ;
+    emobon-core:originCountry "France"^^xsd:string ;
+    emobon-core:waterColumnDepth "27"^^xsd:string ;
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:linkedToObservatory <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/observatory/OOB> ;
+    emobon-sampling:maxSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:minSamplingDepth [ a qudt:QuantityValue ;
+            qudt:numericValue 2.7e+01 ;
+            qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ] ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    emobon-sampling:tidalStage "no_tide"^^xsd:string .
 
 <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_210818> a prov:Activity,
         sosa:Sampling ;
@@ -2494,6 +2494,60 @@
     emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
     emobon-sampling:longStorage true ;
     emobon-sampling:origEmobonId "EMO BON OOB So 211012 meio (4)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "4"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_23> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-10-15 community collected macro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Céline Labrune"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_23> ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211015> ;
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB SO 211015 macro (3)"^^xsd:string ;
+    emobon-sampling:sampleReplicate "3"^^xsd:string ;
+    emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
+    emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
+    schema:additionalType core_vocab:fieldSample,
+        "http://vocab.nerc.ac.uk/collection/S29/current/PE001525/"^^xsd:anyURI .
+
+<http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_24> a prov:Entity,
+        sosa:Sample ;
+    dct:description "EMOBON mimarks-specimen sediment sample from station OOB collected on 2021-10-15 community collected macro"^^xsd:string ;
+    prov:wasAssociatedWith [ a prov:Person,
+                schema:Person ;
+            schema:name "Bruno Hesse"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:identifier "https://orcid.org/0000-0002-2238-3247"^^xsd:anyURI ;
+            schema:name "Céline Labrune"^^xsd:string ],
+        [ a prov:Person,
+                schema:Person ;
+            schema:name "Lyvia Lescure"^^xsd:string ] ;
+    prov:wasGeneratedBy <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sample/EMOBON_OOB_So_24> ;
+    sosa:isResultOf <http://data.emobon.embrc.eu/observatory-oob-crate/sediment/sampling-event/OOB_So_211015> ;
+    emobon-sampling:bioCommunity "macro"^^xsd:string ;
+    emobon-sampling:environmentMaterial "sediment%20%5BENVO:00002007%5D"^^xsd:anyURI ;
+    emobon-sampling:failure true ;
+    emobon-sampling:investigationType "mimarks-specimen"^^xsd:string ;
+    emobon-sampling:longStorage true ;
+    emobon-sampling:origEmobonId "EMO BON OOB SO 211015 macro (4)"^^xsd:string ;
     emobon-sampling:sampleReplicate "4"^^xsd:string ;
     emobon-sampling:taxonomicID "https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=33208"^^xsd:anyURI ;
     emobon-sampling:taxonomicName "Metazoa"^^xsd:string ;
