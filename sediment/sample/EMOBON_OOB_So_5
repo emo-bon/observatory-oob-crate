@@ -65,7 +65,6 @@
             dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ; 
             prov:startedAtTime '2022-07-18'^^xsd:date ;
             prov:endedAtTime '2022-07-18'^^xsd:date ;
-            
             prov:wasInformedBy [
                 
                 a prov:Activity ;
@@ -77,7 +76,6 @@
                     qudt:numericValue '-20.0'^^xsd:double ; 
                     qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
                 ] ;
-
                 prov:wasInformedBy [
                     
                     a prov:Activity ;
@@ -85,7 +83,6 @@
                     dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ; 
                     prov:startedAtTime '2022-01-24'^^xsd:date ;
                     prov:endedAtTime '2022-01-25'^^xsd:date ; 
-                    
                     prov:wasInformedBy [
                         a prov:Activity ;
                         dct:type "storage"^^xsd:string ; 
@@ -103,9 +100,9 @@
                         ] ;
                         emobon-sampling:storageLoc 'room 301, freezer LECOB'^^xsd:string ;
                         prov:wasInformedBy <> ; 
-                    ] ; 
-                ] ; 
-            ] ; 
+                    ] ;
+                ] ;
+            ] ;
         ] ; 
     ] ;
 .
