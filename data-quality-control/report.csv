@@ -1,4 +1,28 @@
 Diagnosis,LogsheetType,LogsheetTab,Column,Row,Value,ExtendedDiagnosis,FilePath,DataType,Requirement
+x after y violation,sediment,sampling,arr_date_seq,29,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,30,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,34,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,35,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,39,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,40,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,47,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,48,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,52,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,53,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,56,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,arr_date_seq,57,2022-07-18 00:00:00,arr_date_seq must be after arr_date_hq (y = 2022-10-26 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,29,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,30,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,34,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,35,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,39,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,40,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,47,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,48,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,52,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,53,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,56,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+x after y violation,sediment,sampling,ship_date_seq,57,2022-07-18 00:00:00,ship_date_seq must be after ship_date (y = 2022-10-17 00:00:00),/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,1,EMOBON_OOB_So_1,source_mat_id should match ^EMOBON_OOB_So_210608_micro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,2,EMOBON_OOB_So_2,source_mat_id should match ^EMOBON_OOB_So_210608_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,3,EMOBON_OOB_So_3,source_mat_id should match ^EMOBON_OOB_So_210608_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
@@ -27,6 +51,56 @@ source_mat_id error,sediment,sampling,source_mat_id,25,EMOBON_OOB_So_25,source_m
 source_mat_id error,sediment,sampling,source_mat_id,26,EMOBON_OOB_So_26,source_mat_id should match ^EMOBON_OOB_So_211209_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,27,EMOBON_OOB_So_27,source_mat_id should match ^EMOBON_OOB_So_211209_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,28,EMOBON_OOB_So_28,source_mat_id should match ^EMOBON_OOB_So_211209_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,29,EMOBON_OOB_So_29,source_mat_id should match ^EMOBON_OOB_So_220221_micro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,30,EMOBON_OOB_So_30,source_mat_id should match ^EMOBON_OOB_So_220221_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,31,EMOBON_OOB_So_31,source_mat_id should match ^EMOBON_OOB_So_220221_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,32,EMOBON_OOB_So_32,source_mat_id should match ^EMOBON_OOB_So_220221_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,33,EMOBON_OOB_So_33,source_mat_id should match ^EMOBON_OOB_So_220421_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,34,EMOBON_OOB_So_34,source_mat_id should match ^EMOBON_OOB_So_220425_micro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,35,EMOBON_OOB_So_35,source_mat_id should match ^EMOBON_OOB_So_220425_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,36,EMOBON_OOB_So_36,source_mat_id should match ^EMOBON_OOB_So_220425_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,37,EMOBON_OOB_So_37,source_mat_id should match ^EMOBON_OOB_So_220425_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,38,EMOBON_OOB_So_38,source_mat_id should match ^EMOBON_OOB_So_220425_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,39,EMOBON_OOB_So_39,source_mat_id should match ^EMOBON_OOB_So_220425_meio_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,40,EMOBON_OOB_So_40,source_mat_id should match ^EMOBON_OOB_So_220425_meio_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,41,EMOBON_OOB_So_41,source_mat_id should match ^EMOBON_OOB_So_220425_meio_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,42,EMOBON_OOB_So_42,source_mat_id should match ^EMOBON_OOB_So_220425_meio_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,43,EMOBON_OOB_So_43,source_mat_id should match ^EMOBON_OOB_So_220429_macro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,44,EMOBON_OOB_So_44,source_mat_id should match ^EMOBON_OOB_So_220429_macro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,45,EMOBON_OOB_So_45,source_mat_id should match ^EMOBON_OOB_So_220429_macro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,46,EMOBON_OOB_So_46,source_mat_id should match ^EMOBON_OOB_So_220429_macro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,47,EMOBON_OOB_So_47,source_mat_id should match ^EMOBON_OOB_So_220628_micro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,48,EMOBON_OOB_So_48,source_mat_id should match ^EMOBON_OOB_So_220628_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,49,EMOBON_OOB_So_49,source_mat_id should match ^EMOBON_OOB_So_220628_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,50,EMOBON_OOB_So_50,source_mat_id should match ^EMOBON_OOB_So_220628_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,51,EMOBON_OOB_So_51,source_mat_id should match ^EMOBON_OOB_So_220628_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,52,EMOBON_OOB_So_52,source_mat_id should match ^EMOBON_OOB_So_220628_meio_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,53,EMOBON_OOB_So_53,source_mat_id should match ^EMOBON_OOB_So_220628_meio_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,54,EMOBON_OOB_So_54,source_mat_id should match ^EMOBON_OOB_So_220628_meio_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,55,EMOBON_OOB_So_55,source_mat_id should match ^EMOBON_OOB_So_220628_meio_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,56,EMOBON_OOB_So_56,source_mat_id should match ^EMOBON_OOB_So_220823_micro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,57,EMOBON_OOB_So_57,source_mat_id should match ^EMOBON_OOB_So_220823_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,58,EMOBON_OOB_So_58,source_mat_id should match ^EMOBON_OOB_So_220823_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,59,EMOBON_OOB_So_59,source_mat_id should match ^EMOBON_OOB_So_220823_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,60,EMOBON_OOB_So_60,source_mat_id should match ^EMOBON_OOB_So_220823_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,61,EMOBON_OOB_So_61,source_mat_id should match ^EMOBON_OOB_So_221012_micro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,62,EMOBON_OOB_So_62,source_mat_id should match ^EMOBON_OOB_So_221012_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,63,EMOBON_OOB_So_63,source_mat_id should match ^EMOBON_OOB_So_221012_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,64,EMOBON_OOB_So_64,source_mat_id should match ^EMOBON_OOB_So_221012_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,65,EMOBON_OOB_So_65,source_mat_id should match ^EMOBON_OOB_So_221012_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,66,EMOBON_OOB_So_66,source_mat_id should match ^EMOBON_OOB_So_221012_meio_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,67,EMOBON_OOB_So_67,source_mat_id should match ^EMOBON_OOB_So_221012_meio_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,68,EMOBON_OOB_So_68,source_mat_id should match ^EMOBON_OOB_So_221012_meio_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,69,EMOBON_OOB_So_69,source_mat_id should match ^EMOBON_OOB_So_221012_meio_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,70,EMOBON_OOB_So_70,source_mat_id should match ^EMOBON_OOB_So_221012_macro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,71,EMOBON_OOB_So_71,source_mat_id should match ^EMOBON_OOB_So_221012_macro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,72,EMOBON_OOB_So_72,source_mat_id should match ^EMOBON_OOB_So_221012_macro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,73,EMOBON_OOB_So_73,source_mat_id should match ^EMOBON_OOB_So_221012_macro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,74,EMOBON_OOB_So_74,source_mat_id should match ^EMOBON_OOB_So_221206_micro_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,75,EMOBON_OOB_So_75,source_mat_id should match ^EMOBON_OOB_So_221206_micro_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,76,EMOBON_OOB_So_76,source_mat_id should match ^EMOBON_OOB_So_221206_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,77,EMOBON_OOB_So_77,source_mat_id should match ^EMOBON_OOB_So_221206_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+source_mat_id error,sediment,sampling,source_mat_id,78,EMOBON_OOB_So_78,source_mat_id should match ^EMOBON_OOB_So_221206_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,174,EMOBON_OOB_So_174,source_mat_id should match ^EMOBON_OOB_So___$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,175,EMOBON_OOB_So_175,source_mat_id should match ^EMOBON_OOB_So___$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 orcid error,sediment,sampling,store_person,5,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
@@ -41,10 +115,26 @@ orcid error,sediment,sampling,store_person,21,Céline Labrune,orcid 0000-0002-22
 orcid error,sediment,sampling,store_person,22,Céline Labrune,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 orcid error,sediment,sampling,store_person,23,Céline Labrune,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 orcid error,sediment,sampling,store_person,24,Céline Labrune,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,66,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,67,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,68,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,69,Jadwiga Orignac,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,70,Céline Labrune,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,71,Céline Labrune,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,72,Céline Labrune,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,73,Céline Labrune,orcid 0000-0002-2238-3247 corresponds to person name Pierre E. Galand,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 membership violation,sediment,sampling,comm_samp,174,<empty>,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 membership violation,sediment,sampling,comm_samp,175,<empty>,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,ENA_accession_number_sample,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
 missing value,sediment,sampling,ENA_accession_number_sample,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,mandatory
+missing value,sediment,sampling,arr_date_seq,61,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,62,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,66,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,67,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,70,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,71,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,74,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,arr_date_seq,75,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,arr_date_seq,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,arr_date_seq,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,collection_date,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
@@ -67,30 +157,54 @@ missing value,sediment,sampling,samp_mat_process,21,<empty>,\,/github/workspace/
 missing value,sediment,sampling,samp_mat_process,22,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process,24,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process,70,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process,71,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process,72,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process,73,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process_dev,21,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process_dev,22,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process_dev,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process_dev,24,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process_dev,70,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process_dev,71,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process_dev,72,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_mat_process_dev,73,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process_dev,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_mat_process_dev,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_loc,21,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_loc,22,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_loc,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_loc,24,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_loc,70,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_loc,71,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_loc,72,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_loc,73,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_loc,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_loc,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_temp,21,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_temp,22,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_temp,23,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_temp,24,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_temp,70,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_temp,71,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_temp,72,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,samp_store_temp,73,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_temp,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,samp_store_temp,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,sampl_person,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,sampl_person,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,sampling_event,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 missing value,sediment,sampling,sampling_event,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+missing value,sediment,sampling,ship_date_seq,61,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,62,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,66,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,67,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,70,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,71,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,74,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
+missing value,sediment,sampling,ship_date_seq,75,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,ship_date_seq,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,ship_date_seq,175,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,mandatory
 missing value,sediment,sampling,size_frac_low,174,<empty>,\,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,mandatory
